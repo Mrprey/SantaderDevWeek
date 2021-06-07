@@ -5,4 +5,8 @@
     <string name="txt_saldo_e_limite">Saldo + Limite:</string>
     <string name="txt_ver_extrato">Ver extrato</string>
     <string name="txt_pagar">Pagar</string>
+    <string name="Transferir">txt_transferir</string>
+    <string name="txt_transferir">Transferir</string>
+    <string name="txt_recarga">Recarga</string>
+    <string name="txt_catao_final">Catão final</string>
 </resources>

@@ -109,7 +109,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 android:layout_margin="16dp"
-                 />
+                android:contentDescription="TODO" />
 
             <TextView
                 android:id="@+id/tv_saldo"
@@ -121,7 +121,7 @@
                 android:layout_marginTop="24dp"
                 app:layout_constraintTop_toBottomOf="@id/tv_saldo_disponivel"
                 app:layout_constraintStart_toStartOf="@id/iv_saldo"
-
+                android:contentDescription="TODO"
 
                 />
 
@@ -302,7 +302,7 @@
         app:layout_constraintTop_toTopOf="@id/iv_cartao_final_content"
         app:layout_constraintStart_toStartOf="@id/iv_cartao_final_content"
         app:layout_constraintBottom_toBottomOf="@id/iv_cartao_final_content"
-
+        tools:ignore="NotSibling"
         android:layout_marginStart="16dp" />
 
     <TextView
@@ -329,7 +329,7 @@
         app:layout_constraintBottom_toBottomOf="@id/iv_cartao_final_content"
         android:layout_margin="16dp"
         tools:ignore="NotSibling"
-         />
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
